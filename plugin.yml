@@ -1,0 +1,14 @@
+name: SrChatColor
+main: net.savagereborn.RedJaVa.SRChatColor
+version: 1.8
+description: This plugin add color to chat
+commands:
+  setcolor:
+    description: Changes a user chatcolor
+    usage: /setcolor [color]
+    permission: srchat.setcolor
+    permission-message: You don't have permission
+permissions:
+  srchat.setcolor:
+    description: Allows a user to set his chat to a specified color
+    default: op
